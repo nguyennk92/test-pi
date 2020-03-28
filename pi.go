@@ -20,3 +20,7 @@ func Pi(num int) float64 {
 
 	return 4 * (float64(count1) / float64(count2))
 }
+
+func Pi2(num int) float64 {
+	return Pi(num)
+}
